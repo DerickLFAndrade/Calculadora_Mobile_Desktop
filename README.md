@@ -64,3 +64,11 @@
 - CSS3;
 - HTML5;
 - BOOTSTRAP.
+
+
+
+## PREVIEW: 
+
+<https://dericklfandrade.github.io/Calculadora_Mobile_Desktop/>
+
+**Observação**: Não foi desenvolvido todas as funcionalidades. 
