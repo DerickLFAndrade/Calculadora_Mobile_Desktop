@@ -45,7 +45,7 @@
 
 
 
-| ---------------------------TASKS---------------------- |    PROGRESSO     | *REQUERIDO PARA* |    *ENTREGUE EM*    | *RELEVÂNCIA* 1/5 |
+| TASKS                                    |    PROGRESSO     | *REQUERIDO PARA* |    *ENTREGUE EM*    | *RELEVÂNCIA* 1/5 |
 | :--------------------------------------- | :--------------: | :--------------: | :-----------------: | :--------------: |
 | - Criar esqueleto da pasta main e criar arquivos: **.hml**, **.js** , .**css**, **.md** ; |  **Concluído**   |    24/09/2021    |     24/09/2021      |       3/5        |
 | - Criar esboço da página index.html;     |  **Concluído**   |    24/09/2021    |     24/09/2021      |       4/5        |
