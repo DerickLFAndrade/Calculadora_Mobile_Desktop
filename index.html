@@ -19,60 +19,62 @@
 
             <div id="barraTema" >
 
+                <div id="barraTema2">
+                   
+                       
+                            <h2 id="calcEsquerda" class="corLetra">Calculadora</h2>
+                       
+                       
+                            <h4 id="tema" class="corLetra">TEMAS</h4>
+                       
+                        <span id="seletor">
+                            <h4 id="tema1" class="corLetra">1</h4>
+                            <h4 id="tema2" class="corLetra">2 </h4>
+                            <h4 id="tema3" class="corLetra">3</h4>
+                        </span>
+                        <div id="botTema">
+                            <input class="toggle" type="button" id="pos1">
+                            <input class="toogle" type="button" id="pos2">
+                            <input class="toggle" type="button" id="pos3">
+                        </div>
+                </div>
+                    
                 
-                    <span id="calcEsquerda">
-                        <h3>Calculadora</h3>
-                    </span>
-                    <span id="tema">
-                        <h4>TEMAS</h4>
-                    </span>
-                    <span id="seletor">
-                        <h4 id="tema1">1</h4>
-                        <h4 id="tema2">2 </h4>
-                        <h4 id="tema3">3</h4>
-                    </span>
-                    <div id="botTema">
-                        <input class="toggle" type="button" id="pos1">
-                        <input class="toogle" type="button" id="pos2">
-                        <input class="toggle" type="button" id="pos3">
-                    </div>
-                
-    <div id="resultado">
-        
-    </div>
+    <input id="resultado" type="text">
     <div class="content" id="content"></div>
     <div id="pads">
         
         <div class="row">
-            <div class="col-16" id="valores">
-                <input type="button" value="7" class="imps" id="imps1">
-                <input type="button" value="8" class="imps"  id="imps2">
-                <input type="button" value="9" class="imps"  id="imps3">
-                <button class="imps"  id="impsDell"><b>DEL</b></button>
-                <input type="button" value="4" class="imps" id="imps4">
-                <input type="button" value="5" class="imps" id="imps5">
-                <input type="button" value="6" class="imps"id="imps6">
-                <input type="button" value="+" class="imps"id="imps7">
-                <input type="button" value="1" class="imps"id="imps8">
-                <input type="button" value="2" class="imps"id="imps9">
-                <input type="button" value="3" class="imps"id="imps10">
+            <div class="col-16" id="valores" >
+                <input type="button" value="7" class="imps" id="imps1" onclick="calcNum(7)">
+                <input type="button" value="8" class="imps"  id="imps2" onclick="calcNum(8)">
+                <input type="button" value="9" class="imps"  id="imps3" onclick="calcNum(9)"> 
+                <button class="imps"  id="impsDell" name="delete" onclick="deletar()"><b>DEL</b></button>
+                <input type="button" value="4" class="imps" id="imps4" onclick="calcNum(4)">
+                <input type="button" value="5" class="imps" id="imps5" onclick="calcNum(5)">
+                <input type="button" value="6" class="imps"id="imps6" onclick="calcNum(6)">
+                <input type="button" value="+" class="imps"id="soma" onclick="soma()">
+                <input type="button" value="1" class="imps"id="imps8" onclick="calcNum(1)">
+                <input type="button" value="2" class="imps"id="imps9" onclick="calcNum(2)">
+                <input type="button" value="3" class="imps"id="imps10" onclick="calcNum(3)">
                 <input type="button" value="-" class="imps"id="imps11">
                 <input type="button" value="." class="imps"id="imps12">
-                <input type="button" value="0" class="imps"id="imps13">
+                <input type="button" value="0" class="imps"id="imps13" onclick="calcNum(0)">
                 <input type="button" value="/" class="imps"id="imps14">
                 <input type="button" value="x" class="imps"id="imps15">
-                <button class="imps" id="impsReset"><b>RESET</b></button>
-                <input type="button" value="=" class="imps"id="impsIgual">
-                <input type="button" value="%" class="imps" id="imps16">
+                <button class="imps" id="impsReset" name="resetar"><b>RESET</b></button>
+                <input type="button" value="=" class="imps"id="resultadoCalc" name="resultadoCalc">
+                <input type="button" value="%" class="imps" id="imps16" name="porcentagem">
             </div>
            
         </div>
 
     </div>
+   
+
 </div>
 
    
-
 
 
     </div>
