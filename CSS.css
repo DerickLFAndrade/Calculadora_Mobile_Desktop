@@ -1,0 +1,167 @@
+
+#containerPrincipal {
+position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(222, 26%, 31%);
+    background: cover;
+}
+ #barraTema {
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 100px;
+     width: 500px;
+    
+     border-radius: 10px;
+    
+ }
+ #calcEsquerda{
+     position: absolute;
+     margin-top: -25px;
+    margin-left: 5px;
+    color: white;
+ }
+  #tema{
+      
+      position: absolute;
+    margin-left: 350px;
+    margin-top: -25px;
+    color: white;
+ }
+ #seletor {
+     display: inline-flex;
+     font-Family: Spartan;
+     margin-top: -45px;
+     margin-left: 455px;
+     position: absolute;
+     color: white;
+     
+ }
+ #tema1 {
+     font-size: 14pt;
+     padding-left: 5px;
+ }
+ #tema2 {
+     font-size: 14pt;
+     padding-left: 20px;
+ }
+ #tema3 {
+     font-size: 14pt;
+     padding-left: 25px;
+ }
+ #botTema {
+    
+     position: absolute;
+     display: inline-flex;
+     margin-left: 450px;
+     margin-top: -20px;
+     height: 25px; 
+     width: 90px;
+     padding: 3px;
+     border-radius: 10px;
+    background-color:  hsl(224, 36%, 15%);
+ }
+ #pos1 {
+     border: none;
+   height: 18px;
+    width: 18px;
+     border-radius: 60px;
+     background-color:  hsl(6, 63%, 50%);
+ }
+
+ #pos2 {
+     border: none;
+     border-radius: 60px; 
+  height: 18px;
+    width: 18px;
+    margin-left: 15px;
+     background-color:  hsl(224, 36%, 15%);
+ }
+ #pos3 { 
+     border: none;
+     border-radius: 60px; 
+   height: 18px;
+    width: 18px;
+     margin-left: 10px;
+     
+     background-color:  hsl(224, 36%, 15%);
+ }
+ #resultado {
+    position: absolute;
+     background: hsl(224, 36%, 15%);
+     border-radius: 10px;
+     width: 550px;
+     height: 90px;
+     margin-top: 45px;
+     color: white;
+     font-size: 50pt;
+ }
+ #result {
+     position: absolute;
+     margin-left: 400px;
+     margin-top: 12px;
+     font-size: 40pt;
+
+ }
+ 
+ #content {
+    padding: 30px;
+ }
+   #pads {
+    
+    padding-top: 15px;
+    background:  hsl(223, 31%, 20%);
+     border-radius: 10px;
+     margin-top: 100px;
+     width: 550px;
+     height: 500px;
+ }
+ .imps {
+     background-color: rgb(235, 240, 226);
+     font-Family: Spartan;
+    border-radius: 10px;
+     width: 100px;
+     height: 70px;
+     color:  hsl(221, 14%, 31%);
+     font-size: 32pt;
+    box-shadow: white;
+   -webkit-box-shadow: -2px 1px 2px hsl(0, 23%, 89%) ;
+  
+ margin-left: 25px;
+    margin-top: 20px;
+  
+ }
+
+  #impsDell {
+    
+    margin-left: 25px;
+    margin-top: -10px;
+    font-size: 25px;
+    background-color: hsl(225, 21%, 49%);
+    color: white;
+    box-shadow: white;
+   -webkit-box-shadow: -2px 1px 2px hsl(224, 28%, 35%)
+
+ }
+  #impsReset {
+    margin-left: 25px;
+    margin-top: 15px;
+    font-size: 15pt;
+    width: 165px;
+    color: white;
+    background-color: hsl(225, 21%, 49%);
+      box-shadow: white;
+   -webkit-box-shadow: -2px 1px 2px hsl(224, 28%, 35%)
+ }
+  #impsIgual {
+    margin-left: 25px;
+    margin-top: 15px;
+    font-size: 20pt;
+    width: 165px;
+    color: white;
+   background-color: hsl(6, 63%, 50%);
+     box-shadow: white;
+   -webkit-box-shadow: -2px 1px 2px hsl(6, 70%, 34%)
+ }
+
+
