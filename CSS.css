@@ -187,7 +187,7 @@ position: absolute;
   #containerPrincipal {
 position: absolute;
     height: 100vh;
-    width: 150vw;
+    width: 100vw;
     background-color: hsl(222, 26%, 31%);
     background: cover;
 }
