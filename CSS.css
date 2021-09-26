@@ -2,11 +2,11 @@
   
 #containerPrincipal {
     position: absolute;
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
     
     background-color: hsl(222, 26%, 31%);
-    background: cover;
+    
 }
  #barraTema {
     
