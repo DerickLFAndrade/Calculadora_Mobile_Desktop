@@ -52,7 +52,7 @@
 | - Criar um repositório e upar a pasta do projeto no GitHub; |  **Concluído**   |    24/09/2021    |     24/09/2021      |       4/5        |
 | - Adiocionar um seletor de 3 opções de tema; |  **Concluído**   |    25/09/2021    |     25/09/2021      |       3/5        |
 | - Criar 3 temas diferentes e ativar de acordo com o que o usuário escolher (Eventos em JavaScript); |  **Concluído**   |    25/09/2021    |     25/09/2021      |       3/5        |
-| -  Criar modelo responsivo para mobile.  | **Em andamento** |    27/09/2021    | **Dentro do prazo** |       3/5        |
+| -  Criar modelo responsivo para mobile.  |  **Concluído**   |    27/09/2021    |     25/09/2021      |       3/5        |
 | - Desenvolver a parte lógica da calculadora; | **Em andamento** |    30/09/2021    | **Dentro do prazo** |       5/5        |
 | - Revisão do projeto;                    | **Em andamento** |    01/09/2021    | **Dentro do prazo** |       4/5        |
 | - Testes e correções de erros;           | **Em andamento** |    01/09/2021    | **Dentro do prazo** |       4/5        |
