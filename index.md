@@ -14,7 +14,7 @@
 
 <body>
 
-    <div class="container" id="containerPrincipal">
+    <div class="container-fluid" id="containerPrincipal">
 
 
 
