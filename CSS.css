@@ -1,21 +1,22 @@
 @media screen and (max-width: 625px) {
   
 #containerPrincipal {
-    position: absolute;
-    height: 110vh;
-    width: 110vw;
+    
+    height: 115vh;
+    width: 115vw;
     background: cover;
     background-color: hsl(222, 26%, 31%);
     
 }
  #barraTema {
-    
+    position: absolute;
      margin-top: 70px;
      width: 100vw;
      height: 100vh;
-    margin-left: 25px;
+    margin-left: 40px;
      border-radius: 10px;
     
+  
  }
  #calcEsquerda{
      position: absolute;
@@ -95,12 +96,12 @@
     position: absolute;
      background: hsl(224, 36%, 15%);
      border-radius: 10px;
-     width: 84vw;
+     width: 85vw;
      height: 90px;
      margin-top: 45px;
      color: white;
      font-size: 30pt;
-     margin-left: -20px;
+     margin-left: -18px;
      
  }
 
