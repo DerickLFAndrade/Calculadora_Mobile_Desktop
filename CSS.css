@@ -1,9 +1,9 @@
 @media screen and (max-width: 625px) {
   
 #containerPrincipal {
-position: absolute;
+    position: absolute;
     height: 100vh;
-    width: 100vmax;
+    width: 100vw;
     
     background-color: hsl(222, 26%, 31%);
     background: cover;
@@ -11,8 +11,9 @@ position: absolute;
  #barraTema {
     
      margin-top: 70px;
-     width: 100vmax;
-    margin-left: 5%;
+     width: 100vw;
+     height: 100vh;
+    margin-left: 25px;
      border-radius: 10px;
     
  }
@@ -26,7 +27,7 @@ position: absolute;
   #tema{
       font-size: 12pt;
       position: absolute;
-    margin-left: 150px;
+    margin-left: 38%;
     margin-top: -20px;
     color: white;
  }
@@ -34,7 +35,7 @@ position: absolute;
      display: inline-flex;
      font-Family: Spartan;
      margin-top: -45px;
-     margin-left: 232px;
+     margin-left: 55%;
      position: absolute;
      color: white;
      
@@ -55,7 +56,7 @@ position: absolute;
     
      position: absolute;
      display: inline-flex;
-     margin-left: 230px;
+     margin-left: 55%;
      margin-top: -20px;
      height: 25px; 
      width: 75px;
@@ -94,11 +95,12 @@ position: absolute;
     position: absolute;
      background: hsl(224, 36%, 15%);
      border-radius: 10px;
-     width: 320px;
+     width: 84vw;
      height: 90px;
      margin-top: 45px;
      color: white;
      font-size: 30pt;
+     margin-left: -20px;
      
  }
 
@@ -107,12 +109,12 @@ position: absolute;
     padding: 30px;
  }
    #pads {
-    margin-left: -3px;
+    margin-left: -5%;
     padding-top: 5px;
     background:  hsl(223, 31%, 20%);
      border-radius: 10px;
      margin-top: 100px;
-     width: 320px;
+     width: 85vw;
      height: 450px;
  }
  .imps {
@@ -120,14 +122,14 @@ position: absolute;
      font-Family: Spartan;
     border-radius: 10px;
     border: none;
-     width: 65px;
-     height: 65px;
+     width: 19%;
+     height: 18%;
      color:  hsl(221, 14%, 31%);
      font-size: 20pt;
     box-shadow: rgb(150, 125, 125);
    -webkit-box-shadow: -2px 5px 2px hsl(0, 4%, 5%) ;
   
- margin-left: 10px;
+ margin-left: 4%;
     margin-top: 20px;
   
  }
@@ -144,20 +146,20 @@ position: absolute;
 
  }
   #impsReset {
-    margin-left: 10px;
+    margin-left: 5%;
     margin-top: 15px;
     font-size: 15pt;
-    width: 100px;
+    width: 30%;
     color: white;
     background-color: hsl(225, 21%, 49%);
       box-shadow: white;
    -webkit-box-shadow: -2px 1px 2px hsl(224, 28%, 35%)
  }
   #resultadoCalc {
-    margin-left: 15px;
+    margin-left: 5%;
     margin-top: 15px;
     font-size: 18pt;
-    width: 100px;
+    width: 30%;
     color: white;
    background-color: hsl(6, 63%, 50%);
      box-shadow: white;
