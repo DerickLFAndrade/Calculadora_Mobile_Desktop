@@ -4,6 +4,7 @@
 position: absolute;
     height: 800px;
     width: 350px;
+    margin-left: 5px;
     background-color: hsl(222, 26%, 31%);
     background: cover;
 }
