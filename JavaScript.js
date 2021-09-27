@@ -125,6 +125,9 @@ function calcNum(num) {
   function deletar() {
       resultado.value = ''
     }
+    function limpar() {
+        resultado.value = ''
+      }
 
     function soma(num1, num2) { 
         num1 = Number(resultado.value)
