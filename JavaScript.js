@@ -111,17 +111,20 @@ pos1.addEventListener('click', tema1)
 pos2.addEventListener('click', tema2)
 pos3.addEventListener('click', tema3)
 //mudar tema// 
+var validar = 0
+var validar2 = 1
 var array = []
 var array2 = []
 var resultado = []
  resultado = document.getElementById("resultado")
 
 function calcNum(num) {
-    if (typeof resultado == 'undefinied') {
+    if (typeof resultado == 'undefinied' || resultado.value == '+') {
         resultado.value = ''
     }
     resultado.value = resultado.value + num
-    array = num
+    
+   
 }
 function limpar() {
     resultado.value.split()
@@ -132,14 +135,34 @@ function limpar() {
 
 function resetar() {
     resultado.value = ''
+    
 }
 
+let n
+let num1
+let num2
 
-
-function soma(num1, num2) {
-    num1 = Number(resultado.value)
-    num2 = Number(resultado.value)
-
-    console.log(num1, num2)
+function pegarValores() {
+   
+    if (validar == 0) {
+       n = Number(resultado.value)
+       num1 = n
+       validar = 1
+        console.log(`numero 1 ${num1}`)
+        validar2 == 1
+        
+    }
+    resultado.value = '+'
+    
 
 }
+function somou() {
+     if (validar2 == 1) {
+        n = Number(resultado.value)
+        num2 = n
+        console.log(`numero 2 ${num2}`)
+        validar2 = 0
+    }
+    let res = num1 + num2
+    resultado.value = String(res)
+  }
