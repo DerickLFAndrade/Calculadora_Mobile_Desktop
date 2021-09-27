@@ -116,6 +116,9 @@ var validar2 = 1
 var array = []
 var array2 = []
 var resultado = []
+let n
+let num1
+let num2
  resultado = document.getElementById("resultado")
 
 function calcNum(num) {
@@ -135,12 +138,15 @@ function limpar() {
 
 function resetar() {
     resultado.value = ''
+    res = ''
+    num1 = 0
+    num2 = 0
+    validar = 0
+    validar2 = 1
     
 }
 
-let n
-let num1
-let num2
+
 
 function pegarValores() {
    
