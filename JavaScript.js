@@ -119,21 +119,21 @@ var resultado = []
 let n
 let num1
 let num2
- resultado = document.getElementById("resultado")
+resultado = document.getElementById("resultado")
 
 function calcNum(num) {
-    if (typeof resultado == 'undefinied' || resultado.value == '+') {
+    if (typeof resultado == 'undefinied') {
         resultado.value = ''
     }
     resultado.value = resultado.value + num
-    
-   
+
+
 }
 function limpar() {
     resultado.value.split()
     array2 = resultado.value.substring(0, resultado.value.length - 1)
     resultado.value = array2
-   
+
 }
 
 function resetar() {
@@ -143,32 +143,72 @@ function resetar() {
     num2 = 0
     validar = 0
     validar2 = 1
-    
+
 }
+
+
 
 
 
 function pegarValores() {
-   
+
     if (validar == 0) {
-       n = Number(resultado.value)
-       num1 = n
-       validar = 1
+        n = Number(resultado.value)
+        num1 = n
+        validar = 1
         console.log(`numero 1 ${num1}`)
         validar2 == 1
-        
+
     }
-    resultado.value = '+'
-    
 
 }
-function somou() {
-     if (validar2 == 1) {
+
+function calculou() {
+    let res
+    if (validar2 == 1) {
         n = Number(resultado.value)
         num2 = n
         console.log(`numero 2 ${num2}`)
         validar2 = 0
     }
-    let res = num1 + num2
-    resultado.value = String(res)
-  }
+
+    if (resultado.value == `+${num2}`) {
+        res = num1 + num2
+        resultado.value = String(res)
+    } else if (resultado.value == `-${num2}`) {
+        res = num1 - num2
+        resultado.value = String(res)
+    } else if (resultado.value == `/${num2}`) {
+        res = num1 / num2
+        resultado.value = String(res)
+    } else if (resultado.value == `x${num2}`) {
+        res = num1 * num2
+        resultado.value = String(res)
+    } else if (resultado.value == `%${num2}`) {
+        res += num1 * num2 / 100
+        resultado.value = String(res)
+    }
+
+
+
+}
+
+
+
+inps[7].addEventListener('click', function () {
+
+    resultado.value = '+'
+})
+inps[11].addEventListener('click', function () {
+    resultado.value = '-'
+})
+inps[14].addEventListener('click', function () {
+    resultado.value = '/'
+})
+inps[15].addEventListener('click', function () {
+    resultado.value = 'x'
+})
+
+inps[18].addEventListener('click', function () {
+    resultado.value = '%'
+})
