@@ -2,8 +2,8 @@
   
 #containerPrincipal {
     
-    height: 115vh;
-    width: 115vw;
+    height: 110vh;
+    width: 110vw;
     background: cover;
     background-color: hsl(222, 26%, 31%);
     
@@ -13,7 +13,7 @@
      margin-top: 70px;
      width: 100vw;
      height: 100vh;
-    margin-left: 40px;
+    margin-left: 30px;
      border-radius: 10px;
     
   
