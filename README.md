@@ -20,7 +20,7 @@
 
 **Desktop:**
 
-![desktop-preview](C:\Users\Dev Js\OneDrive\Área de Trabalho\Front End Mentor\CALCULADORA COMUM\Desafio\design\desktop-preview.jpg)
+![desktop-design-theme-1](C:\Users\Dev Js\OneDrive\Área de Trabalho\Front End Mentor\CALCULADORA COMUM\desktop-design-theme-1.jpg)
 
 
 
@@ -28,13 +28,7 @@
 
 
 
-
-
-
-
-![mobile-design-theme-1](C:\Users\Dev Js\OneDrive\Área de Trabalho\Front End Mentor\CALCULADORA COMUM\Desafio\design\mobile-design-theme-1.jpg)
-
-
+![mobile-design-theme-1](C:\Users\Dev Js\OneDrive\Área de Trabalho\Front End Mentor\CALCULADORA COMUM\mobile-design-theme-1.jpg)
 
 
 
