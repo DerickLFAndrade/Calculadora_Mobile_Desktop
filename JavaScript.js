@@ -144,10 +144,7 @@ function calculou() {
  if (resultado) {     
     document.getElementById("resultado").innerHTML = eval(resultado)
  } else if (resultado == false){
-     this.resultado.style.color = 'white'
-     this.resultado.style.fontSize = '20pt'
-     this.resultado.style.textAlign = 'center'
-    this.resultado.innerHTML = 'Nada para calcular'
+    alert('Nada para calcular')
  }
 
 }
