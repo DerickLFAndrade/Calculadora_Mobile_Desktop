@@ -41,7 +41,7 @@
             </div>
 
 
-            <input id="resultado" type="text" class="form-control" disabled>
+            <p id="resultado"></p>
             <div class="content" id="content"></div>
             <div id="pads">
 
@@ -54,18 +54,18 @@
                         <input type="button" value="4" class="imps" id="imps4" onclick="calcNum(4)">
                         <input type="button" value="5" class="imps" id="imps5" onclick="calcNum(5)">
                         <input type="button" value="6" class="imps" id="imps6" onclick="calcNum(6)">
-                        <input type="button" value="+" class="imps" id="soma" onclick="pegarValores()">
+                        <input type="button" value="+" class="imps" id="soma" onclick="calcNum('+')">
                         <input type="button" value="1" class="imps" id="imps8" onclick="calcNum(1)">
                         <input type="button" value="2" class="imps" id="imps9" onclick="calcNum(2)">
                         <input type="button" value="3" class="imps" id="imps10" onclick="calcNum(3)">
-                        <input type="button" value="-" class="imps" id="imps11" onclick="pegarValores()">
-                        <input type="button" value="." class="imps" id="imps12">
+                        <input type="button" value="-" class="imps" id="imps11" onclick="calcNum('-')">
+                        <input type="button" value="." class="imps" id="imps12" onclick="calcNum('.')">
                         <input type="button" value="0" class="imps" id="imps13" onclick="calcNum(0)">
-                        <input type="button" value="/" class="imps" id="imps14" onclick="pegarValores()">
-                        <input type="button" value="x" class="imps" id="imps15" onclick="pegarValores()">
+                        <input type="button" value="/" class="imps" id="imps14" onclick="calcNum('/')">
+                        <input type="button" value="x" class="imps" id="imps15" onclick="calcNum('*')">
                         <button class="imps" id="impsReset" name="resetar"  onclick="resetar()"><b>RESET</b></button>
                         <input type="button" value="=" class="imps" id="resultadoCalc" name="resultadoCalc" onclick="calculou()">
-                        <input type="button" value="%" class="imps" id="imps16" name="porcentagem" onclick="pegarValores()">
+                     
                     </div>
 
                 </div>

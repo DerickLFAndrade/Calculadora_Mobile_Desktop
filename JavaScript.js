@@ -21,14 +21,14 @@ function tema1() {
 
     for (i = 4; i <= 15; i++) {
         inps[i].style.color = 'hsl(60, 10%, 19%)'
-        inps[18].style.color = 'hsl(52, 100%, 62%)'
+        .color = 'hsl(52, 100%, 62%)'
         inps[i].style.background = 'hsl(0, 0%, 93%)'
         inps[3].style.background = 'hsl(225, 21%, 49%)'
         inps[16].style.background = 'hsl(225, 21%, 49%)'
         inps[17].style.background = 'hsl(6, 63%, 50%)'
-        inps[18].style.background = 'hsl(0, 0%, 93%)'
+        
         inps[17].style.color = 'white'
-        inps[18].style.color = 'hsl(60, 10%, 19%)'
+       
     }
 
 
@@ -53,14 +53,14 @@ function tema2() {
 
     for (i = 4; i <= 15; i++) {
         inps[i].style.color = 'hsl(60, 10%, 19%)'
-        inps[18].style.color = 'hsl(52, 100%, 62%)'
+        
         inps[i].style.background = 'hsl(0, 0%, 93%)'
         inps[3].style.background = 'hsl(185, 42%, 37%)'
         inps[17].style.background = 'hsl(25, 98%, 40%)'
         inps[16].style.background = 'hsl(185, 42%, 37%)'
-        inps[18].style.background = 'hsl(0, 0%, 93%)'
+        
         inps[17].style.color = 'white'
-        inps[18].style.color = 'hsl(60, 10%, 19%)'
+       
     }
 
     resultado.style.background = 'white'
@@ -87,12 +87,12 @@ function tema3() {
 
     for (i = 4; i <= 15; i++) {
         inps[i].style.color = 'hsl(52, 100%, 62%)'
-        inps[18].style.color = 'hsl(52, 100%, 62%)'
+       
         inps[i].style.background = 'hsl(268, 71%, 12%)'
         inps[3].style.background = 'hsl(281, 89%, 26%)'
         inps[17].style.background = 'hsl(176, 100%, 44%)'
         inps[16].style.background = 'hsl(281, 89%, 26%)'
-        inps[18].style.background = 'hsl(268, 71%, 12%)'
+       
         inps[17].style.color = 'black'
     }
 
@@ -121,94 +121,35 @@ let num1
 let num2
 resultado = document.getElementById("resultado")
 
-function calcNum(num) {
-    if (typeof resultado == 'undefinied') {
-        resultado.value = ''
-    }
-    resultado.value = resultado.value + num
-
-
+function calcNum(num) { 
+    resultado.innerHTML = resultado.innerHTML + num
 }
 function limpar() {
-    resultado.value.split()
-    array2 = resultado.value.substring(0, resultado.value.length - 1)
-    resultado.value = array2
+    var resultado = document.getElementById("resultado").innerHTML
+   document.getElementById("resultado").innerHTML =  resultado.substring(0, resultado.length - 1)
+   
 
 }
 
 function resetar() {
-    resultado.value = ''
-    res = ''
-    num1 = 0
-    num2 = 0
-    validar = 0
-    validar2 = 1
+    resultado.innerHTML = ''
 
 }
 
 
 
-
-
-function pegarValores() {
-
-    if (validar == 0) {
-        n = Number(resultado.value)
-        num1 = n
-        validar = 1
-        console.log(`numero 1 ${num1}`)
-        validar2 == 1
-
-    }
-
-}
 
 function calculou() {
-    let res
-    if (validar2 == 1) {
-        n = Number(resultado.value)
-        num2 = n
-        console.log(`numero 2 ${num2}`)
-        validar2 = 0
-    }
-
-    if (resultado.value == `+${num2}`) {
-        res = num1 + num2
-        resultado.value = String(res)
-    } else if (resultado.value == `-${num2}`) {
-        res = num1 - num2
-        resultado.value = String(res)
-    } else if (resultado.value == `/${num2}`) {
-        res = num1 / num2
-        resultado.value = String(res)
-    } else if (resultado.value == `x${num2}`) {
-        res = num1 * num2
-        resultado.value = String(res)
-    } else if (resultado.value == `%${num2}`) {
-        res += num1 * num2 / 100
-        resultado.value = String(res)
-    }
-
-
+    var resultado = document.getElementById ("resultado").innerHTML
+ if (resultado) {     
+    document.getElementById("resultado").innerHTML = eval(resultado)
+ } else if (resultado == false){
+     this.resultado.style.color = 'white'
+     this.resultado.style.fontSize = '20pt'
+     this.resultado.style.textAlign = 'center'
+    this.resultado.innerHTML = 'Nada para calcular'
+ }
 
 }
 
 
-
-inps[7].addEventListener('click', function () {
-
-    resultado.value = '+'
-})
-inps[11].addEventListener('click', function () {
-    resultado.value = '-'
-})
-inps[14].addEventListener('click', function () {
-    resultado.value = '/'
-})
-inps[15].addEventListener('click', function () {
-    resultado.value = 'x'
-})
-
-inps[18].addEventListener('click', function () {
-    resultado.value = '%'
-})

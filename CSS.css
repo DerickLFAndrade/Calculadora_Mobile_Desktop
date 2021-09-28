@@ -1,9 +1,15 @@
 @media screen and (max-width: 625px) {
-  
+   *{
+    margin: 0;
+    padding: 0;
+  }
 #containerPrincipal {
-    
-    height: 110vh;
+    position: absolute;
+   height: 110vh;
     width: 110vw;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     background: cover;
     background-color: hsl(222, 26%, 31%);
     
@@ -20,23 +26,23 @@
  }
  #calcEsquerda{
      position: absolute;
-     margin-top: -20px;
-    margin-left: 5px;
+     margin-top: 20px;
+    margin-left: 3%;
     color: white;
     font-size: 14pt;
  }
   #tema{
       font-size: 12pt;
       position: absolute;
-    margin-left: 38%;
-    margin-top: -20px;
+    margin-left: 48%;
+    margin-top: 20px;
     color: white;
  }
  #seletor {
      display: inline-flex;
      font-Family: Spartan;
-     margin-top: -45px;
-     margin-left: 55%;
+     margin-top: -15px;
+     margin-left: 65%;
      position: absolute;
      color: white;
      
@@ -57,12 +63,12 @@
     
      position: absolute;
      display: inline-flex;
-     margin-left: 55%;
-     margin-top: -20px;
+     margin-left: 65%;
+     margin-top: 10px;
      height: 25px; 
      width: 75px;
      padding: 3px;
-     border-radius: 10px;
+     border-radius: 25px;
     background-color:  hsl(224, 36%, 15%);
  }
  #pos1 {
@@ -97,34 +103,37 @@
      background: hsl(224, 36%, 15%);
      border-radius: 10px;
      width: 85vw;
-     height: 90px;
+     height: 60px;
      margin-top: 45px;
      color: white;
      font-size: 30pt;
-     margin-left: -18px;
+     margin-left: 3%;
      
  }
+ 
 
  
  #content {
     padding: 30px;
  }
    #pads {
-    margin-left: -5%;
+    margin-left: 3%;
     padding-top: 5px;
     background:  hsl(223, 31%, 20%);
      border-radius: 10px;
-     margin-top: 100px;
+     margin-top: 70px;
      width: 85vw;
      height: 450px;
  }
+
  .imps {
+   
      background-color: rgb(235, 240, 226);
      font-Family: Spartan;
     border-radius: 10px;
     border: none;
-     width: 19%;
-     height: 18%;
+     width:19%;
+     height: 22%;
      color:  hsl(221, 14%, 31%);
      font-size: 20pt;
     box-shadow: rgb(150, 125, 125);
@@ -137,9 +146,9 @@
 
   #impsDell {
     
-    margin-left: 10px;
+    margin-left: 15px;
     margin-top: -10px;
-    font-size: 15pt;
+    font-size: 18pt;
     background-color: hsl(225, 21%, 49%);
     color: white;
     box-shadow: white;
@@ -150,7 +159,7 @@
     margin-left: 5%;
     margin-top: 15px;
     font-size: 15pt;
-    width: 30%;
+    width: 45%;
     color: white;
     background-color: hsl(225, 21%, 49%);
       box-shadow: white;
@@ -160,38 +169,24 @@
     margin-left: 5%;
     margin-top: 15px;
     font-size: 18pt;
-    width: 30%;
+    width: 40%;
     color: white;
    background-color: hsl(6, 63%, 50%);
      box-shadow: white;
    -webkit-box-shadow: -2px 1px 2px hsl(6, 70%, 34%)
  }
-
-#tab{
-  
-  padding: 5px;
-  border: none;
-  border-radius: 5px;
-  position: absolute;
-   overflow:hidden;
-  margin-top: -500px;
-  height: 500px;
-  margin-left: -250px;
-  width: 200px;
-    background:  hsl(223, 31%, 20%);
-    color: white;
-    font-size: 20pt;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
 }
 
 
 @media screen and (min-width: 626px) {
+ 
   #containerPrincipal {
 position: absolute;
     height: 100vh;
     width: 100vw;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     background-color: hsl(222, 26%, 31%);
     background: cover;
 }
@@ -302,7 +297,7 @@ position: absolute;
  }
    #pads {
     
-    padding-top: 15px;
+    padding-top: 5px;
     background:  hsl(223, 31%, 20%);
      border-radius: 10px;
      margin-top: 100px;
@@ -322,7 +317,7 @@ position: absolute;
    -webkit-box-shadow: -2px 5px 2px hsl(0, 4%, 5%) ;
   
  margin-left: 25px;
-    margin-top: 20px;
+    margin-top: 25px;
   
  }
 
@@ -341,7 +336,7 @@ position: absolute;
     margin-left: 25px;
     margin-top: 15px;
     font-size: 15pt;
-    width: 165px;
+    width: 250px;
     color: white;
     background-color: hsl(225, 21%, 49%);
       box-shadow: white;
@@ -351,29 +346,14 @@ position: absolute;
     margin-left: 25px;
     margin-top: 15px;
     font-size: 20pt;
-    width: 165px;
+    width: 205px;
     color: white;
    background-color: hsl(6, 63%, 50%);
      box-shadow: white;
    -webkit-box-shadow: -2px 1px 2px hsl(6, 70%, 34%)
  }
 
-#tab{
-  
-  padding: 5px;
-  border: none;
-  border-radius: 5px;
-  position: absolute;
-   overflow:hidden;
-  margin-top: -500px;
-  height: 500px;
-  margin-left: -250px;
-  width: 200px;
-    background:  hsl(223, 31%, 20%);
-    color: white;
-    font-size: 20pt;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
 }
+
 
