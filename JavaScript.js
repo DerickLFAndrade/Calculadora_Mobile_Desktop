@@ -21,7 +21,7 @@ function tema1() {
 
     for (i = 4; i <= 15; i++) {
         inps[i].style.color = 'hsl(60, 10%, 19%)'
-        .color = 'hsl(52, 100%, 62%)'
+       
         inps[i].style.background = 'hsl(0, 0%, 93%)'
         inps[3].style.background = 'hsl(225, 21%, 49%)'
         inps[16].style.background = 'hsl(225, 21%, 49%)'
