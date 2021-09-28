@@ -8,7 +8,7 @@
    height: 110vh;
     width: 110vw;
     left: 50%;
-    top: 50%;
+    top: 55%;
     transform: translate(-50%, -50%);
     background: cover;
     background-color: hsl(222, 26%, 31%);

@@ -49,7 +49,7 @@
 | - Criar 3 temas diferentes e ativar de acordo com o que o usuário escolher (Eventos em JavaScript); |  **Concluído**   |    25/09/2021    |     25/09/2021      |       3/5        |
 | -  Criar modelo responsivo para mobile.  |  **Concluído**   |    27/09/2021    |     25/09/2021      |       3/5        |
 | - Desenvolver a parte lógica da calculadora; |  **Concluído**   |    30/09/2021    |     28/09/2021      |       5/5        |
-| - Revisão do projeto;                    | **Em andamento** |    01/09/2021    | **Dentro do prazo** |       4/5        |
+| - Revisão do projeto;                    |  **Concluído**   |    01/09/2021    |     28/09/2021      |       4/5        |
 | - Testes e correções de erros;           | **Em andamento** |    01/09/2021    | **Dentro do prazo** |       4/5        |
 | - Entrega do projeto.                    | **Em andamento** |    02/09/2021    | **Dentro do prazo** |       5/5        |
 

@@ -41,7 +41,7 @@
             </div>
 
 
-            <input id="resultado" type="text">
+            <p id="resultado"></p>
             <div class="content" id="content"></div>
             <div id="pads">
 
@@ -50,22 +50,22 @@
                         <input type="button" value="7" class="imps" id="imps1" onclick="calcNum(7)">
                         <input type="button" value="8" class="imps" id="imps2" onclick="calcNum(8)">
                         <input type="button" value="9" class="imps" id="imps3" onclick="calcNum(9)">
-                        <button class="imps" id="impsDell" name="delete" onclick="limar()"><b>DEL</b></button>
+                        <button class="imps" id="impsDell" name="delete" onclick="limpar()"><b>DEL</b></button>
                         <input type="button" value="4" class="imps" id="imps4" onclick="calcNum(4)">
                         <input type="button" value="5" class="imps" id="imps5" onclick="calcNum(5)">
                         <input type="button" value="6" class="imps" id="imps6" onclick="calcNum(6)">
-                        <input type="button" value="+" class="imps" id="soma" onclick="soma()">
+                        <input type="button" value="+" class="imps" id="soma" onclick="calcNum('+')">
                         <input type="button" value="1" class="imps" id="imps8" onclick="calcNum(1)">
                         <input type="button" value="2" class="imps" id="imps9" onclick="calcNum(2)">
                         <input type="button" value="3" class="imps" id="imps10" onclick="calcNum(3)">
-                        <input type="button" value="-" class="imps" id="imps11">
-                        <input type="button" value="." class="imps" id="imps12">
+                        <input type="button" value="-" class="imps" id="imps11" onclick="calcNum('-')">
+                        <input type="button" value="." class="imps" id="imps12" onclick="calcNum('.')">
                         <input type="button" value="0" class="imps" id="imps13" onclick="calcNum(0)">
-                        <input type="button" value="/" class="imps" id="imps14">
-                        <input type="button" value="x" class="imps" id="imps15">
-                        <button class="imps" id="impsReset" name="resetar"  onclick="deletar()"><b>RESET</b></button>
-                        <input type="button" value="=" class="imps" id="resultadoCalc" name="resultadoCalc">
-                        <input type="button" value="%" class="imps" id="imps16" name="porcentagem">
+                        <input type="button" value="/" class="imps" id="imps14" onclick="calcNum('/')">
+                        <input type="button" value="x" class="imps" id="imps15" onclick="calcNum('*')">
+                        <button class="imps" id="impsReset" name="resetar"  onclick="resetar()"><b>RESET</b></button>
+                        <input type="button" value="=" class="imps" id="resultadoCalc" name="resultadoCalc" onclick="calculou()">
+                     
                     </div>
 
                 </div>
