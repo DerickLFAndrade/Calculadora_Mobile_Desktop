@@ -143,7 +143,7 @@ function calculou() {
     var resultado = document.getElementById ("resultado").innerHTML
  if (resultado) {     
     document.getElementById("resultado").innerHTML = eval(resultado)
- } else if (resultado == false){
+ } else {
     alert('Nada para calcular')
  }
 
