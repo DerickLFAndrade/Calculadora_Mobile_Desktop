@@ -63,9 +63,10 @@
                         <input type="button" value="0" class="imps" id="imps13" onclick="calcNum(0)">
                         <input type="button" value="/" class="imps" id="imps14" onclick="calcNum('/')">
                         <input type="button" value="x" class="imps" id="imps15" onclick="calcNum('*')">
-                        <button class="imps" id="impsReset" name="resetar"  onclick="resetar()"><b>RESET</b></button>
-                        <input type="button" value="=" class="imps" id="resultadoCalc" name="resultadoCalc" onclick="calculou()">
-                     
+                        <button class="imps" id="impsReset" name="resetar" onclick="resetar()"><b>RESET</b></button>
+                        <input type="button" value="=" class="imps" id="resultadoCalc" name="resultadoCalc"
+                            onclick="calculou()">
+
                     </div>
 
                 </div>

@@ -7,9 +7,9 @@
     position: absolute;
    height: 110vh;
     width: 110vw;
-    left: 50%;
+    left: 48%;
     top: 55%;
-    transform: translate(-50%, -50%);
+    transform: translate(-49%, -52%);
     background: cover;
     background-color: hsl(222, 26%, 31%);
     
@@ -110,9 +110,6 @@
      margin-left: 3%;
      
  }
- 
-
- 
  #content {
     padding: 30px;
  }
@@ -180,7 +177,7 @@
 
 @media screen and (min-width: 626px) {
  
-  #containerPrincipal {
+#containerPrincipal {
 position: absolute;
     height: 100vh;
     width: 100vw;
@@ -290,12 +287,11 @@ position: absolute;
      font-size: 50pt;
      
 
- }
- 
+ } 
  #content {
     padding: 30px;
  }
-   #pads {
+ #pads {
     
     padding-top: 5px;
     background:  hsl(223, 31%, 20%);
@@ -321,7 +317,7 @@ position: absolute;
   
  }
 
-  #impsDell {
+ #impsDell {
     
     margin-left: 25px;
     margin-top: -10px;
@@ -332,7 +328,7 @@ position: absolute;
    -webkit-box-shadow: -2px 3px 2px hsl(223, 43%, 31%)
 
  }
-  #impsReset {
+ #impsReset {
     margin-left: 25px;
     margin-top: 15px;
     font-size: 15pt;
@@ -342,7 +338,7 @@ position: absolute;
       box-shadow: white;
    -webkit-box-shadow: -2px 1px 2px hsl(224, 28%, 35%)
  }
-  #resultadoCalc {
+ #resultadoCalc {
     margin-left: 25px;
     margin-top: 15px;
     font-size: 20pt;
@@ -352,7 +348,6 @@ position: absolute;
      box-shadow: white;
    -webkit-box-shadow: -2px 1px 2px hsl(6, 70%, 34%)
  }
-
 
 }
 

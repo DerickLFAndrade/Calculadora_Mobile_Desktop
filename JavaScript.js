@@ -1,3 +1,5 @@
+// <mudar tema>
+
 var pos1 = document.getElementById('pos1')
 var pos2 = document.getElementById('pos2')
 var pos3 = document.getElementById('pos3')
@@ -8,6 +10,7 @@ var dell = document.getElementById("impsDell")
 var pads = document.getElementById("pads")
 var pads1 = document.getElementsByClassName('imps')
 var inps = document.getElementsByClassName('imps')
+
 
 function tema1() {
     for (let i = 0; i <= 4; i++) {
@@ -105,21 +108,14 @@ function tema3() {
     pos2.style.background = 'hsl(224, 36%, 15%)'
     pos3.style.background = 'hsl(176, 100%, 44%)'
 }
-
-
 pos1.addEventListener('click', tema1)
 pos2.addEventListener('click', tema2)
 pos3.addEventListener('click', tema3)
-//mudar tema// 
-var validar = 0
-var validar2 = 1
-var array = []
-var array2 = []
-var resultado = []
-let n
-let num1
-let num2
-resultado = document.getElementById("resultado")
+
+// </mudar tema>
+
+
+// <Funcionalidades>
 
 function calcNum(num) { 
     resultado.innerHTML = resultado.innerHTML + num
@@ -130,14 +126,9 @@ function limpar() {
    
 
 }
-
 function resetar() {
     resultado.innerHTML = ''
-
 }
-
-
-
 
 function calculou() {
     var resultado = document.getElementById ("resultado").innerHTML
@@ -150,3 +141,4 @@ function calculou() {
 }
 
 
+// </Funcionalidades>
