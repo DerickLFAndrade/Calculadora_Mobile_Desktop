@@ -122,7 +122,7 @@ function calcNum(num) {
 }
 function limpar() {
     var resultado = document.getElementById("resultado").innerHTML
-   document.getElementById("resultado").innerHTML =  resultado.substring(0, resultado.length - 1)
+   this.resultado.innerHTML =  resultado.substring(0, resultado.length - 1)
    
 
 }
@@ -130,11 +130,14 @@ function resetar() {
     resultado.innerHTML = ''
 }
 
-function calculou() {
+function calcular() {
     var resultado = document.getElementById ("resultado").innerHTML
- if (resultado) {     
-    document.getElementById("resultado").innerHTML = eval(resultado)
- } else {
+    if (resultado == '0/0') {
+        this.resultado.innerHTML = '0'
+    }
+    else if (resultado) {     
+    this.resultado.innerHTML = eval(resultado)
+    } else {
     alert('Nada para calcular')
  }
 
