@@ -116,9 +116,11 @@ pos3.addEventListener('click', tema3)
 
 
 // <Funcionalidades>
+var resultado = document.getElementById("resultado")
 
 function calcNum(num) { 
-    resultado.innerHTML = resultado.innerHTML + num
+    
+    this.resultado.innerHTML = resultado.innerHTML + num
 }
 function limpar() {
     var resultado = document.getElementById("resultado").innerHTML
@@ -127,15 +129,18 @@ function limpar() {
 
 }
 function resetar() {
-    resultado.innerHTML = ''
+    this.resultado.innerHTML = ''
 }
+
+
 
 function calcular() {
     var resultado = document.getElementById ("resultado").innerHTML
-    if (resultado == '0/0') {
+    if (resultado == '0/0' || resultado == '0/0/0' || resultado == '0/0/0/0' || resultado == '0/0/0/0/0') {
         this.resultado.innerHTML = '0'
+        alert('Nada para calcular')
     }
-    else if (resultado) {     
+     else if (resultado) {     
     this.resultado.innerHTML = eval(resultado)
     } else {
     alert('Nada para calcular')
